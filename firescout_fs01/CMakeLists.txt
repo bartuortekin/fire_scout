@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(firescout_fs01)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf worlds config launch rviz DESTINATION share/${PROJECT_NAME})
+ament_package()
