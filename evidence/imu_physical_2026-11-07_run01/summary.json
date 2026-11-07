@@ -1,0 +1,75 @@
+{
+  "phases": [
+    {
+      "name": "01_flat_NORMAL",
+      "start": 23.753357526999935,
+      "end": 35.75516406299994,
+      "counts": {
+        "/imu/data": 198,
+        "/firescout/imu/roll_deg": 120,
+        "/firescout/imu/pitch_deg": 120,
+        "/firescout/imu/tilt_status": 120
+      },
+      "statuses": {
+        "NORMAL": 120
+      },
+      "roll_range": [
+        -6.02802909584893e-13,
+        -6.027520062928948e-13
+      ],
+      "pitch_range": [
+        4.832444346902776e-07,
+        4.832444346902776e-07
+      ],
+      "passed": true
+    },
+    {
+      "name": "02_ramp_WARNING",
+      "start": 49.61318122800003,
+      "end": 61.62037841799997,
+      "counts": {
+        "/firescout/imu/roll_deg": 120,
+        "/firescout/imu/pitch_deg": 120,
+        "/firescout/imu/tilt_status": 120,
+        "/imu/data": 158
+      },
+      "statuses": {
+        "WARNING": 120
+      },
+      "roll_range": [
+        -6.088078717374212e-13,
+        -6.003675746650561e-13
+      ],
+      "pitch_range": [
+        -20.000001907348633,
+        -20.000001907348633
+      ],
+      "passed": true
+    },
+    {
+      "name": "03_flat_NORMAL",
+      "start": 73.40469457099994,
+      "end": 85.42760037899984,
+      "counts": {
+        "/imu/data": 188,
+        "/firescout/imu/roll_deg": 120,
+        "/firescout/imu/pitch_deg": 120,
+        "/firescout/imu/tilt_status": 120
+      },
+      "statuses": {
+        "NORMAL": 120
+      },
+      "roll_range": [
+        -6.028035601061965e-13,
+        -6.027520062928948e-13
+      ],
+      "pitch_range": [
+        4.832444346902776e-07,
+        4.832444346902776e-07
+      ],
+      "passed": true
+    }
+  ],
+  "rviz_sha256": "de3c632b88b951a663f1a3f1d73ece9bd042514415cbc3658f59918e893db3b8",
+  "passed": true
+}
