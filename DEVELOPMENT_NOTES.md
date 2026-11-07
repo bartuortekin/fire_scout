@@ -1,5 +1,22 @@
 # IMU geliştirme notu — 31 Ekim 2026
 
+## 7 Kasım — güncel main ile LiDAR/IMU entegrasyonu
+
+LiDAR PR #2'yi içeren `origin/main` (`ad10f5c`), `feature/imu-monitor` üzerine
+çakışmasız merge edildi. CMake iki monitor'ü kuruyor; her iki uygulama ve test
+dosyası kendi branch sürümleriyle aynı kaldı. Normal `~/firescout_ws` derlemesi
+ve 30 test (21 IMU + 9 LiDAR) geçti.
+
+Mevcut simülasyon yeniden başlatılmadan, çalışan tek LiDAR monitor'ü korundu;
+yalnızca eksik IMU başlatıldı. Ortak 12 saniyede gerçek bridge'den 197 IMU ve
+31 scan mesajı; 120 NORMAL ve 120 CLEAR çıktısı doğrulandı. İki node da açık
+bırakıldı. [Ayrıntılı test kaydı](evidence/imu_lidar_integration_2026-11-07/README.md)
+ilk denemedeki hazırlık zaman aşımını da açıkça belgeler.
+
+Takip edilmeyen teslim ZIP'i aynı SHA256 ile korundu; geçişi engellemediğinden
+taşımaya gerek olmadı. Önceden var olan RViz stash'i korundu. Bu entegrasyon
+yereldir; push veya GitHub'da main'e merge yapılmadı.
+
 ## 7 Kasım 2026 güncellemesi
 
 Kalan fiziksel simülasyon eğim testi tamamlandı: mevcut Gazebo oturumundaki gerçek

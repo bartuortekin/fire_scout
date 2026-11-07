@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "duration_sec": 12.004670090998843,
+  "nodes_before": [
+    "ros_gz_bridge",
+    "robot_state_publisher",
+    "rviz",
+    "transform_listener_impl_5729c78896b0",
+    "imu_lidar_integration_probe",
+    "_ros2cli_daemon_0_74ba96e4f3264294851ffc501e5e72a4",
+    "lidar_monitor"
+  ],
+  "nodes_after": [
+    "imu_monitor",
+    "ros_gz_bridge",
+    "robot_state_publisher",
+    "rviz",
+    "transform_listener_impl_5729c78896b0",
+    "imu_lidar_integration_probe",
+    "_ros2cli_daemon_0_74ba96e4f3264294851ffc501e5e72a4",
+    "lidar_monitor"
+  ],
+  "imu_started": true,
+  "lidar_reused": true,
+  "counts": {
+    "imu": 197,
+    "lidar_status": 120,
+    "front": 120,
+    "left": 120,
+    "right": 120,
+    "roll": 120,
+    "pitch": 120,
+    "imu_status": 120,
+    "scan": 31
+  },
+  "status_counts": {
+    "imu": {
+      "NORMAL": 120
+    },
+    "lidar": {
+      "CLEAR": 120
+    }
+  },
+  "latest": {
+    "roll_deg": 5.258224953542945e-13,
+    "pitch_deg": 4.83244264160021e-07,
+    "orientation": "VALID (uncertainty unknown)",
+    "front_m": 3.663496732711792,
+    "left_m": 1.3682373762130737,
+    "right_m": 8.0
+  },
+  "publishers": {
+    "/imu/data": [
+      "ros_gz_bridge"
+    ],
+    "/scan": [
+      "ros_gz_bridge"
+    ],
+    "/firescout/imu/roll_deg": [
+      "imu_monitor"
+    ],
+    "/firescout/imu/pitch_deg": [
+      "imu_monitor"
+    ],
+    "/firescout/imu/tilt_status": [
+      "imu_monitor"
+    ],
+    "/firescout/lidar/status": [
+      "lidar_monitor"
+    ],
+    "/firescout/lidar/front_m": [
+      "lidar_monitor"
+    ],
+    "/firescout/lidar/left_m": [
+      "lidar_monitor"
+    ],
+    "/firescout/lidar/right_m": [
+      "lidar_monitor"
+    ]
+  },
+  "max_receive_age_sec": 0.23748953199901734,
+  "comparison_tolerance": 0.02,
+  "existing_simulation_reused": true,
+  "duplicate_monitors": false,
+  "imu_left_running": true
+}

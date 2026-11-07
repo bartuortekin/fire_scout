@@ -1,0 +1,38 @@
+[INFO] [1794071169.703088348] [imu_monitor]: WAITING: No /imu/data message received yet.
+[INFO] [1794071169.704568925] [imu_monitor]: tilt_status=UNKNOWN (demo thresholds: WARNING >=15 deg, NORMAL <=12 deg)
+[ros2run]: Received signal:  Interrupt
+Traceback (most recent call last):
+  File "/home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/imu_monitor.py", line 214, in <module>
+    main()
+    ~~~~^^
+  File "/home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/imu_monitor.py", line 202, in main
+    node = ImuMonitor()
+  File "/home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/imu_monitor.py", line 89, in __init__
+    self.subscription = self.create_subscription(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~^
+        Imu, '/imu/data', self.on_imu, qos_profile_sensor_data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/rclpy/node.py", line 2372, in create_subscription
+    subscription_object = self._create_subscription_handle(
+        msg_type,
+    ...<4 lines>...
+        acceptable_buffer_backends=acceptable_buffer_backends
+    )
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/rclpy/node.py", line 1992, in _create_subscription_handle
+    check_is_valid_msg_type(msg_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/rclpy/type_support.py", line 108, in check_is_valid_msg_type
+    check_for_type_support(msg_type)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/rclpy/type_support.py", line 102, in check_for_type_support
+    msg_or_srv_type.__import_type_support__()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/sensor_msgs/msg/_imu.py", line 81, in __import_type_support__
+    from geometry_msgs.msg import Quaternion
+  File "/opt/ros/lyrical/lib/python3.14/site-packages/geometry_msgs/msg/__init__.py", line 2, in <module>
+    from geometry_msgs.msg._accel_stamped import AccelStamped as AccelStamped  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[ros2run]: Interrupt
