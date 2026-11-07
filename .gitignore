@@ -4,3 +4,6 @@ log/
 __pycache__/
 *.pyc
 .venv/
+
+# Local submission archives duplicate the versioned evidence.
+/evidence/*_submission.zip

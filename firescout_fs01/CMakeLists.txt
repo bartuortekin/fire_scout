@@ -6,8 +6,8 @@ install(
     DESTINATION share/${PROJECT_NAME})
 install(PROGRAMS
   scripts/camera_monitor.py
+  scripts/imu_monitor.py
+  scripts/lidar_monitor.py
   DESTINATION lib/${PROJECT_NAME}
 )
-
-
 ament_package()
