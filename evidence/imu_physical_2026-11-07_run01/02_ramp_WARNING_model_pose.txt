@@ -1,0 +1,8 @@
+
+Requesting state for world [industrial_world]...
+
+Model: [34]
+  - Name: firescout_fs01
+  - Pose [ XYZ (m) ] [ RPY (rad) ]:
+    [1.699750 -1.800000 0.503116]
+    [-0.000000 -0.349066 -0.000000]

@@ -1,0 +1,6 @@
+{
+  "tools/imu_physical_test.py": "ddd16dda5d01be6fa64728c7859556a4fe0676fc5c9edd987dde51e3c9bad28b",
+  "firescout_fs01/test/fixtures/imu_ramp_20deg.sdf": "f8e3c91f0c97bce7f1db56bbce346aae412d22f6cdfc6611816b8540fe794e21",
+  "firescout_fs01/scripts/imu_monitor.py": "ace415d7ff20dcf55c2f50e5e566e000354eca95d4c4f0c6097cfbc4b3351e61",
+  "docs/IMU_PHYSICAL_TEST.md": "92c61a6c7ea332b494e23a0bb32867f910a59ab50e05098b20e550b79bd0b1cd"
+}

@@ -1,0 +1,16 @@
+[INFO] [1794056089.193431346] [rosbag2_recorder]: Event publisher thread: Started
+[INFO] [1794056089.223397157] [rosbag2_recorder]: Starting recording to '/home/bartu/fire_scout/evidence/imu_physical_2026-11-07_run01/bag'
+[WARN] [1794056089.225535961] [rosbag2_recorder]: No input serialization format specified, using default rmw serialization format: 'cdr'.
+[INFO] [1794056089.253055684] [rosbag2_recorder]: Listening for topics...
+[INFO] [1794056089.254325684] [rosbag2_recorder]: Recording...
+[INFO] [1794056089.257401061] [rosbag2_recorder]: Topics discovery started.
+[INFO] [1794056091.981813325] [rosbag2_recorder]: Subscribed to topic '/clock'
+[INFO] [1794056092.018450208] [rosbag2_recorder]: Subscribed to topic '/imu/data'
+[INFO] [1794056092.707338139] [rosbag2_recorder]: Subscribed to topic '/firescout/imu/pitch_deg'
+[INFO] [1794056092.722764716] [rosbag2_recorder]: Subscribed to topic '/firescout/imu/roll_deg'
+[INFO] [1794056092.735929003] [rosbag2_recorder]: Subscribed to topic '/firescout/imu/tilt_status'
+[INFO] [1794056092.736043127] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1794056092.736062733] [rosbag2_recorder]: Topics discovery stopped.
+[INFO] [1794056166.724228493] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1794056166.755935859] [rosbag2_recorder]: Recording stopped
+[INFO] [1794056166.764472611] [rosbag2_recorder]: Event publisher thread: Exited

@@ -1,0 +1,8 @@
+MCAP fully read successfully.
+{
+  "/clock": 21503,
+  "/imu/data": 1075,
+  "/firescout/imu/roll_deg": 739,
+  "/firescout/imu/pitch_deg": 739,
+  "/firescout/imu/tilt_status": 739
+}
