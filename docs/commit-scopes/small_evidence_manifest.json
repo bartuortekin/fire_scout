@@ -1,0 +1,82 @@
+{
+  "evidence/fsm_clearance_fix_2026-11-08/wheel_approach.png": {
+    "bytes": 130406,
+    "sha256": "36949c75d440ba45d19c7c1f1043291cc6c705982cf8da311284c893bdd8b391"
+  },
+  "evidence/fsm_clearance_fix_2026-11-08/live_approach/summary.json": {
+    "bytes": 4667,
+    "sha256": "69b6e9f593fa69d5bda9be45133bb50f6c2cc29f05daa09cd66eaad2e55dd559"
+  },
+  "evidence/fsm_clearance_fix_2026-11-08/live_approach/events.jsonl": {
+    "bytes": 11560,
+    "sha256": "d12d8e736814e711f8aa9ab52d6fe9cc775cdeca4024c54845c607771e1f9e7c"
+  },
+  "evidence/fsm_clearance_fix_2026-11-08/recording_validation.json": {
+    "bytes": 1909,
+    "sha256": "d6d94cb894faeb963d8b5a1355b3cb200c306ae122893da5f313f0e1d10c53ff"
+  },
+  "evidence/imu_demo_ramp_fsm_2026-11-08_run01/summary.json": {
+    "bytes": 5530,
+    "sha256": "c89a011cb43d239c1135bdb8258b8404a7982820b2c13008c81a3e032e51ebc3"
+  },
+  "evidence/imu_demo_ramp_fsm_2026-11-08_run01/screenshots/03_direct_20deg.png": {
+    "bytes": 104876,
+    "sha256": "8848520cd9cbcc7dae19457f606af0a5f34fcb19cc46391fbbdc343c0bef8ad3"
+  },
+  "evidence/imu_demo_ramp_fsm_2026-11-08_run01/screenshots/04_return_flat_disabled.png": {
+    "bytes": 100779,
+    "sha256": "d3260a990b004556d98d6e1a7fffebee99a8b76d6d5025c0467b9e14848ee3b1"
+  },
+  "evidence/rough_ground_2026-11-08/geometry.json": {
+    "bytes": 1113,
+    "sha256": "2fcda095b9c5dd6914677ff0c219e48ae3e84237ea1c471b24e6c82e8bbcbcf2"
+  },
+  "evidence/rough_ground_2026-11-08/five_bumps_and_preserved_ramp.png": {
+    "bytes": 97513,
+    "sha256": "cf773faabbfb6be620b338acc06bd7e4c01134ef84b95d503b8996757d43a901"
+  },
+  "evidence/rough_ground_2026-11-08/final_safety_check.json": {
+    "bytes": 2033,
+    "sha256": "85ffc7448156ea236770834c6fd74d5b5902e455b36ead0972c5ae221e7b6d3a"
+  },
+  "evidence/rough_ground_2026-11-08/single/crossing.png": {
+    "bytes": 153823,
+    "sha256": "e36dd996682b707749a6fbabd9017091ddc7893da31bd2a747ef6ad3fbbf1f5d"
+  },
+  "evidence/rough_ground_2026-11-08/single/summary.json": {
+    "bytes": 6298,
+    "sha256": "8464f01213619252ef114182818c45fe7613502b8976f54319c4bacdb1a34638"
+  },
+  "evidence/rough_ground_2026-11-08/single/recording_validation.json": {
+    "bytes": 1337,
+    "sha256": "2536d2959d5737adfd323667bc7cf8661c027ec0ec48aea8396fb0e9d70b7d0a"
+  },
+  "evidence/rough_ground_2026-11-08/single/events.jsonl": {
+    "bytes": 7112,
+    "sha256": "237231404760809ce35b0e6bb8b4fa4db0e39a26cc07926b25f958816d2f2840"
+  },
+  "evidence/rough_ground_2026-11-08/five_retry/crossing.png": {
+    "bytes": 204225,
+    "sha256": "264c8bbe0f219ccf7c4ac9b6b32947034b0439d8ff4140f33a4c38842eda023b"
+  },
+  "evidence/rough_ground_2026-11-08/five_retry/summary.json": {
+    "bytes": 6249,
+    "sha256": "46f775bcc366b3061ca00c098249c2f9e4bdcde66ecc8a231db3a57ea1505d47"
+  },
+  "evidence/rough_ground_2026-11-08/five_retry/recording_validation.json": {
+    "bytes": 1463,
+    "sha256": "f00dc095d440fe57c7ae275d0e24d1ab9471a7ef0a8245ceb7b521c93aaa56b5"
+  },
+  "evidence/rough_ground_2026-11-08/five_retry/events.jsonl": {
+    "bytes": 66002,
+    "sha256": "a9681dbdbdbfd4ea33fefa902775fb5b1603deb3845940ec3fbed14cbfcb1b90"
+  },
+  "evidence/rough_ground_2026-11-08/five_retry/CONTROL_PAUSE.md": {
+    "bytes": 1337,
+    "sha256": "745884a0d3aba2bd2dc331ad40282c96b95a7e92d77990200fbc4bbb00b45196"
+  },
+  "evidence/rough_ground_2026-11-08/five/INTERRUPTED.md": {
+    "bytes": 730,
+    "sha256": "9499f5049d00a696d0b9356777c495c3fb5dbc22ebf563a09e6d731a2b19d94b"
+  }
+}

@@ -1,0 +1,465 @@
+{"t": 0.7712185380005394, "phase": "startup", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9252398014068604 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 1.4788565130002098, "phase": "startup", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 6.271255993000523, "phase": "02_place_approach_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.0839788913726807 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 6.470377335001103, "phase": "02_place_approach_disabled", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 12.783825870001237, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.0797948837280273 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 13.865984122001464, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 16.7754670230006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.052743434906006 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 19.56639321000148, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 22.880833914001414, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.0292043685913086 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.76s)"}
+{"t": 22.97216823100098, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 24.501069899000868, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.0196754932403564 (0.08s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.10s)"}
+{"t": 24.976707047000673, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 28.2810807700007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.02s) | front=2.997218370437622 (0.02s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 34.18638530899989, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 36.30775453700153, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.9813735485076904 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 37.380053415001385, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 48.778175052000734, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.9079318046569824 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 48.87154280700088, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 58.77023099000144, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.825373411178589 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 59.06302237700038, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 88.2705879210007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.610760450363159 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 89.07886404200144, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 94.27632646100028, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.5649709701538086 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 95.97351062000052, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 102.76722135400087, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.562912702560425 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 104.26685484500013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 114.7820830970013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.5629124641418457 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 115.16843170799984, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 149.77654609900128, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.5629096031188965 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 152.47480587600148, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 160.2833880320013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.5629100799560547 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 161.0689372500001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 170.27224037100132, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.5629117488861084 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 170.47306444900096, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 192.77959850200023, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.673163890838623 (0.02s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 193.27846524100096, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 198.28443835600046, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.67540168762207 (0.03s) | imu=NORMAL (0.05s) | camera=STALE (0.08s)"}
+{"t": 198.470631305001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 204.76452245100154, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.869267463684082 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 205.2691972880002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 208.2981187860005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.965806007385254 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 208.4664556810003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 214.33448345700162, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001494884490967 (0.14s) | imu=NORMAL (0.05s) | camera=STALE (0.09s)"}
+{"t": 214.73487858200133, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 216.16987756300114, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.002776622772217 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.16s)"}
+{"t": 216.30943344700063, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 217.27378586400118, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=5.001859664916992 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.26s)"}
+{"t": 217.48279430799994, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 218.47827312400113, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=4.987045764923096 (0.14s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.65s)"}
+{"t": 218.89678291500059, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 222.17739911100034, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001497745513916 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.51s)"}
+{"t": 222.4706164850013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 223.7814383060013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.003233432769775 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 224.2897578910015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 226.1768290630007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.002099514007568 (0.14s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.94s)"}
+{"t": 226.29093757400005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 226.79677787000037, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001669883728027 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 227.94365693600048, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 229.0206016050015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001138210296631 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.12s)"}
+{"t": 229.18505024000115, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 230.19263475400112, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001400947570801 (0.13s) | imu=NORMAL (0.05s) | camera=SEARCHING (2.31s)"}
+{"t": 232.77815943800124, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 233.96574496500034, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001582145690918 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.29s)"}
+{"t": 234.3987363870001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 234.80303948200162, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.996689319610596 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 235.06850691200088, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 237.00922185200034, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.00184440612793 (0.14s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.94s)"}
+{"t": 240.4289753940011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 244.77185689200087, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001497745513916 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 246.17023063800116, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 248.28202759000123, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001530647277832 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 249.88032301100066, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 251.59275383300155, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001570224761963 (0.14s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.17s)"}
+{"t": 251.81186866200005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 254.78415264600153, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.001524448394775 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 256.98046285200144, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 259.06900709600086, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001524448394775 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.76s)"}
+{"t": 259.1823314350004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 260.7709133010012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001524448394775 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 260.9688946890001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 265.29983437300143, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.001524448394775 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 266.07532692099994, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 267.0861479230007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001524448394775 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.11s)"}
+{"t": 267.19891967400144, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 268.176490576001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=5.001524448394775 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.22s)"}
+{"t": 268.57938209700114, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 269.6101822590008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001524448394775 (0.13s) | imu=NORMAL (0.05s) | camera=SEARCHING (0.77s)"}
+{"t": 269.7812506270002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 285.29015127599996, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001524448394775 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 286.77231562199995, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 288.89135559700117, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001524448394775 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.38s)"}
+{"t": 289.067288704, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 289.7904208480013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001524448394775 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 291.77406257500115, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 297.78395102000104, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.001524448394775 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 297.98016412000106, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 311.8080556310015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001524448394775 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.08s)"}
+{"t": 311.87893609599996, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 312.931832526001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001524448394775 (0.11s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.19s)"}
+{"t": 313.08630554200136, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 313.7749495370008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.001524448394775 (0.02s) | imu=NORMAL (0.05s) | camera=STALE (0.09s)"}
+{"t": 313.88802666000083, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 314.0899492770004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.05s) | front=5.001524448394775 (0.14s) | imu=NORMAL (0.08s) | camera=SEARCHING (0.23s)"}
+{"t": 314.19807367000067, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 317.28375975400013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001524448394775 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 318.36794121599996, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 320.77329975500106, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.001524448394775 (0.04s) | imu=NORMAL (0.05s) | camera=STALE (0.08s)"}
+{"t": 321.6242038220007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 322.0810469250009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=5.001524448394775 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.56s)"}
+{"t": 322.575354392, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 326.3789141510006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.001524448394775 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.39s)"}
+{"t": 326.46732391500154, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 327.2849403140008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.0028076171875 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 330.28110204600125, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 332.287534553001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.05s) | front=5.004235744476318 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 332.9114670320014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 335.29745849900064, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.039687633514404 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 335.67328814400025, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 343.77972301800037, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.01s) | front=5.590664863586426 (0.01s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 344.7791230970015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 347.77547650400084, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.574269771575928 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 348.47343288200136, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 354.00212687300154, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.544763565063477 (0.13s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.37s)"}
+{"t": 354.0721799430012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 354.78503115400054, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.537657260894775 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 358.17220348000046, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 365.8151338530006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.498631000518799 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 365.98840186800044, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 371.1695028110007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=5.4727911949157715 (0.14s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.09s)"}
+{"t": 371.2828500860014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 374.2776635480004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.45316219329834 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 375.0761627390002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 377.27002746200014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.02s) | front=5.440596580505371 (0.02s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 378.26977646400155, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 383.7763658870008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.406671524047852 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 384.9692542270004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 393.79201942000145, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.32257080078125 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 395.1837280030013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 399.32491786300125, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=5.287548065185547 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 399.58606955899995, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 401.77948233999996, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=5.270176410675049 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 402.5619677400009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 408.28855380500136, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.652191638946533 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 415.7724082450004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 421.2939138180009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.92641282081604 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 421.48664637600086, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 422.09985239100024, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.92641282081604 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.60s)"}
+{"t": 422.3969825310014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 423.7812769840002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.8937766551971436 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 428.1643234790008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 430.27175477200035, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.844562292098999 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 430.60219528000016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 431.89713343900075, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8408360481262207 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.36s)"}
+{"t": 432.0768001780016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 432.7853479460009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.8249411582946777 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 433.8709076920004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 438.0055970660014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.7471201419830322 (0.11s) | imu=NORMAL (0.08s) | camera=SEARCHING (0.69s)"}
+{"t": 438.081699589, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 447.28007786300077, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.673314332962036 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 448.78061898800115, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 450.7885279840011, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.684389591217041 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 452.2766804460007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 453.58049607700013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.679368734359741 (0.11s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.33s)"}
+{"t": 453.68346071199994, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 467.8752069270013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=3.9925124645233154 (0.11s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.28s)"}
+{"t": 467.97235898000145, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 468.78332072100056, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.044528007507324 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 469.9796863690008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 472.7973464170009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.234550952911377 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 473.966310107, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 476.2798552310014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.36368989944458 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 476.5279714140015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 477.47372724900015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.401121139526367 (0.14s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.04s)"}
+{"t": 477.5803658240002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 478.76685656600057, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.497530460357666 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 479.6809021950012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 481.7648778260009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.890771865844727 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 482.6730608180005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 486.28669113600154, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.868016242980957 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 493.97355077000066, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 496.28831347600135, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.852171421051025 (0.01s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 496.97054689700053, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 509.8098709920014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.771594524383545 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 510.46976095100035, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 513.3054026710015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.755838871002197 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.76s)"}
+{"t": 513.3677860890002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 518.7820237610013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.721631050109863 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 519.2672765260013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 523.2969817740013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.694194316864014 (0.02s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 523.3846514180004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 531.2971657730013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.640336990356445 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.10s)"}
+{"t": 538.381142446, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 539.6725893480016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.6349101066589355 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.30s)"}
+{"t": 539.7788915970013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 542.8796426680001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.616499900817871 (0.09s) | imu=NORMAL (0.07s) | camera=SEARCHING (2.17s)"}
+{"t": 542.9768304110003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 543.2959412200016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.611765384674072 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 544.3854211590005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 546.429413535001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.01s) | front=4.603851795196533 (0.13s) | imu=NORMAL (0.08s) | camera=SEARCHING (2.07s)"}
+{"t": 546.6893420560009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 546.7813665100002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.5992960929870605 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 555.126566551, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 556.8821173430006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.594503402709961 (0.12s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.89s)"}
+{"t": 556.9663397640015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 557.2705985100001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.589964866638184 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 557.8222303410002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 559.779262909, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.576855182647705 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 560.0622132640001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 561.3790605810009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=4.574732780456543 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.36s)"}
+{"t": 561.4902599380002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 563.8163125130013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.558248996734619 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 565.1964334910008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 568.7781519130003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.540142059326172 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 569.6769886090005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 573.2710522890011, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.5214385986328125 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 574.0749243970004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 576.2948025550013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.510735511779785 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 576.4952997770015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 580.2711687320007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.488499641418457 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 582.0720754190006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 594.2808038120002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.42092227935791 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 595.8047234780006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 611.7787762630014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.282145977020264 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 614.3719390620008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 616.7844461290006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=4.264572620391846 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 617.368916794001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 622.7727560740004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.219823360443115 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 623.067751343, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 626.2697115790015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=4.198695182800293 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 627.1041241250005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 627.490165561001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.193265438079834 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.44s)"}
+{"t": 627.5798474769999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 628.5941678580002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=4.191700458526611 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.74s)"}
+{"t": 628.6843204680008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 641.7689043730006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.02s) | front=3.1517648696899414 (0.02s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 641.9731260380013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 649.3110182700002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.190756320953369 (0.15s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.72s)"}
+{"t": 649.4727394500005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 652.6787994470014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.293464422225952 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.69s)"}
+{"t": 652.7857372450017, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 654.3279704910001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.3775851726531982 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.11s)"}
+{"t": 654.5654187250002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 656.7759730880007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.05s) | front=3.4670827388763428 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.08s)"}
+{"t": 657.6852248160012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 658.9802303659999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.501427173614502 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.37s)"}
+{"t": 659.0681563790004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 659.771977765, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.572511911392212 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 660.2837275430011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 668.7762865479999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9376754760742188 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 669.0864991030012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 671.2784748450013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9261868000030518 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 675.1790164160011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 679.2781563980006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9046127796173096 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 680.3670658210012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 684.1398566980006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.884578227996826 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.37s)"}
+{"t": 684.4670770910016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 685.3819259219999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8799290657043457 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.01s)"}
+{"t": 685.7222632620014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 686.7813006460001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.872934103012085 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 688.183715643001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 688.6913980870013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=3.871415138244629 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.60s)"}
+{"t": 688.9739826640016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 692.2790065640002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8575289249420166 (0.13s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 692.492131160001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 694.7747394500002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.844085454940796 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 695.1749588150014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 698.2958041660004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8266263008117676 (0.15s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 700.9843341220003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 704.9529553339999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.28s) | front=3.8164565563201904 (0.78s) | imu=NORMAL (0.23s) | camera=SEARCHING (1.46s)"}
+{"t": 710.0087761089999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 711.0025330780009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8104333877563477 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.09s)"}
+{"t": 711.0757931960015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 712.993954343001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.8017964363098145 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.43s)"}
+{"t": 713.1942637890006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 713.7893930440005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.796785593032837 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 714.4165122860013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 724.7801235210009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.7307698726654053 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 727.9843496040012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 730.280133747001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.717571973800659 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 732.4835198930014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 741.2693204560001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.661932945251465 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 741.9698884300014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 749.2819499050001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.6128714084625244 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 750.2764877440004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 756.2709073020014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.578433036804199 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 758.0756371890002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 766.2752543060014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.5293631553649902 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 769.3772957960009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 780.774753261001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.473738670349121 (0.13s) | imu=NORMAL (0.05s) | camera=STALE (0.08s)"}
+{"t": 782.6811591430014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 790.7658173200016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.428114652633667 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 790.9796795279999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 793.2777896650005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.409447431564331 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 793.8854942180005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 797.8722335760012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.3864052295684814 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.90s)"}
+{"t": 799.6699598370014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 801.7745698940016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.374444007873535 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 802.2794225840007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 806.471406910001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=3.3410563468933105 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.99s)"}
+{"t": 806.5884815460013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 806.7729153950004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.3345682621002197 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 807.7720161400011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 812.6801978580006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.297830104827881 (0.11s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.89s)"}
+{"t": 812.7842362400006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 813.2822865060007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.29129958152771 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 813.4705757210013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 815.7690539710002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.2741541862487793 (0.04s) | imu=NORMAL (0.03s) | camera=STALE (0.04s)"}
+{"t": 819.071345149001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 820.0870091840006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.2702677249908447 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.61s)"}
+{"t": 820.3711336870001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 823.2810294050014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.2474558353424072 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 824.0769278490006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 827.2843217530008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.2282094955444336 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 828.7032550040003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 830.7848189560009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.02s) | front=3.2196009159088135 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.27s)"}
+{"t": 830.9863343739999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 831.8909032380016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.2136049270629883 (0.13s) | imu=NORMAL (0.08s) | camera=SEARCHING (0.48s)"}
+{"t": 831.9732087490011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 833.7752664529999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.1972904205322266 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 836.0947766620011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 838.283503699, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.184960126876831 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 839.3728267200004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 842.0181986300013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.1699774265289307 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.31s)"}
+{"t": 842.0780924270002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 842.7711861790012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.1598153114318848 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 843.4644469340001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 845.7907717870003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.1428463459014893 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 846.3058525630004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 848.2697923640008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=3.1374189853668213 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (2.06s)"}
+{"t": 848.4783347810007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 848.7982334190001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.06s) | front=3.1322364807128906 (0.02s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 849.785911156001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 851.7773623540015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.120431423187256 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 852.9370138020004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 852.9723728230001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.1153688430786133 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.15s)"}
+{"t": 853.1727316530014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 855.2722077859999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.1060876846313477 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 860.2807204010005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 863.7980911640007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.085343837738037 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 864.5809878300006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 869.7730671140016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.050812005996704 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 869.8937821480013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 870.4883368950013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.050812005996704 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.61s)"}
+{"t": 870.7631868060016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 872.2771407770015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.0431976318359375 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 874.6761549530002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 876.7785681100013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.0295538902282715 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 878.1871611130009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 880.8724082940007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.0181610584259033 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.75s)"}
+{"t": 881.0869702690015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 885.768764597, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.9859237670898438 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 886.3800248820007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 890.771740528, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.9654417037963867 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 893.379259364001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 894.4108803350009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=2.9625513553619385 (0.14s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.08s)"}
+{"t": 894.5729437280006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 897.9894191430012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=2.945753335952759 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.65s)"}
+{"t": 898.0800699530009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 899.7755174330014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.932656764984131 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 900.6852233640002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 901.387857234, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=2.9302847385406494 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.72s)"}
+{"t": 901.4721439320001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 909.7713038370002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.8834800720214844 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 911.3811305670006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 913.7801054390002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.866252899169922 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 914.8690969790005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 917.2841198860006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.8503224849700928 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 918.4654192890011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 923.3325608020004, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=2.8272931575775146 (0.11s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.45s)"}
+{"t": 923.6805293260004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 924.266585704001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.822334051132202 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 924.9659958090015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 927.7867501340006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.804340124130249 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.09s)"}
+{"t": 928.7769488490012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 931.7901161900008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.785982608795166 (0.02s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 932.3693430470012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 932.9810315760005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=2.7812118530273438 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.68s)"}
+{"t": 933.077060992, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 936.2818863930006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=2.765179395675659 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (0.01s)"}
+{"t": 936.368230008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 938.8093524650012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.745931625366211 (0.01s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 941.2038035230016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 943.3112527440007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.731933355331421 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 945.5814750460013, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 947.765201405, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.722336769104004 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 948.2736415120016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 948.9873221350008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=2.717402935028076 (0.14s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.75s)"}
+{"t": 949.0771233600008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 950.7771372030002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.706068754196167 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 950.8807499130016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 956.2704699800015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.671814441680908 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 959.4885162940009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 961.7739640939999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.6605377197265625 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 963.7660182100008, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 971.7720080060008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.605572462081909 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 975.5874549939999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 980.2786448920015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.5812010765075684 (0.01s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 980.4699345780009, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 983.7947216860011, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.5604913234710693 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 984.5810892509999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 987.2697761810014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.5446114540100098 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 988.2700260680012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 996.2862695790009, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.5008792877197266 (0.03s) | imu=NORMAL (0.05s) | camera=STALE (0.07s)"}
+{"t": 1000.0847134169999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1004.775239079001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.478520631790161 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 1007.0871199390003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1013.7772685540003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.438279628753662 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1015.3836358670014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1017.8095747840016, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.4210376739501953 (0.01s) | imu=NORMAL (0.06s) | camera=STALE (0.10s)"}
+{"t": 1017.9803557430005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1025.274764275, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.37286639213562 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 1027.4766409020012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1031.2716973320003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.340914726257324 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 1031.5910596150006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1037.2756855810003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.2862911224365234 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1037.9833022070015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1040.2666669710015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.265981674194336 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1041.3709399180007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1044.2682285340015, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.244164228439331 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1045.3775104940014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1051.7839728580002, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.192920446395874 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 1052.5741634760016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1054.8019432300007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.1809134483337402 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 1055.1762025960015, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1059.2784491600014, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.1508255004882812 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1059.767918810001, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1064.2695791290007, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.1162831783294678 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 1064.5770678540011, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1075.2996584070006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.042921543121338 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 1075.8037653280007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1078.2776095890003, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.05s) | front=2.0266330242156982 (0.05s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 1078.5727313840016, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1087.273698219, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.972512125968933 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.10s)"}
+{"t": 1088.0860434960014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1096.2750916780005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.9236822128295898 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 1098.3801644710002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1099.595098967, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.9211454391479492 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.22s)"}
+{"t": 1099.7992774230006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1100.6943637069999, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.9167333841323853 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (2.31s)"}
+{"t": 1101.4787333069999, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1101.9793158640005, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.9132291078567505 (0.12s) | imu=NORMAL (0.04s) | camera=SEARCHING (0.56s)"}
+{"t": 1102.3980698310006, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1104.295516483, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=1.908008098602295 (0.11s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.07s)"}
+{"t": 1104.593444643, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1105.586039848, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.9036424160003662 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.37s)"}
+{"t": 1105.7200992180005, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1106.812485859, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.896143913269043 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.07s)"}
+{"t": 1109.1120217220014, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1109.510040872001, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.00s) | front=1.8931503295898438 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.45s)"}
+{"t": 1109.5950571900012, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1110.5824663620006, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.8921397924423218 (0.12s) | imu=NORMAL (0.05s) | camera=SEARCHING (0.56s)"}
+{"t": 1111.0848844880002, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1112.3923961, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.02s) | front=1.8854604959487915 (0.01s) | imu=NORMAL (0.05s) | camera=STALE (0.09s)"}
+{"t": 1118.8672060930003, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1122.2990906120012, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.8659695386886597 (0.01s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1122.675858531, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1134.2739427270008, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.7951265573501587 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 1135.7664046440004, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1149.3039364160013, "phase": "03_fsm_only_crossing", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.7240123748779297 (0.03s) | imu=NORMAL (0.05s) | camera=STALE (0.08s)"}
+{"t": 1149.9885016490007, "phase": "03_fsm_only_crossing", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1152.0733413890011, "phase": "04_cleanup_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=1.7240123748779297 (0.10s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.05s)"}
+{"t": 1152.110256670001, "phase": "04_cleanup_disabled", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1155.280161273, "phase": "04_cleanup_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.03s) | front=3.9252398014068604 (0.12s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.91s)"}
+{"t": 1155.4869208590007, "phase": "04_cleanup_disabled", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 1155.8140199650006, "phase": "04_cleanup_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9252398014068604 (0.04s) | imu=NORMAL (0.05s) | camera=STALE (0.06s)"}

@@ -1,0 +1,3 @@
+firescout_fs01/worlds/industrial_world.sdf
+firescout_fs01/test/test_imu_demo_ramp.py
+firescout_fs01/test/test_rough_ground_geometry.py

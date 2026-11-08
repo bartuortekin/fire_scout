@@ -1,0 +1,57 @@
+{
+  "bag_fully_deserialized": true,
+  "bag_message_count": 70783,
+  "topic_counts": {
+    "/firescout/lidar/status": 2090,
+    "/firescout/lidar/right_m": 2061,
+    "/imu/data": 2342,
+    "/clock": 46771,
+    "/firescout/bumper/status": 2089,
+    "/firescout/fsm/state": 2089,
+    "/cmd_vel": 2089,
+    "/firescout/imu/roll_deg": 2089,
+    "/firescout/imu/tilt_status": 2089,
+    "/firescout/lidar/front_m": 2059,
+    "/firescout/lidar/left_m": 2059,
+    "/firescout/imu/pitch_deg": 2088,
+    "/scan": 374,
+    "/firescout/camera/hazard_detected": 223,
+    "/firescout/camera/status": 223,
+    "/firescout/fsm/event": 48
+  },
+  "command_values": [
+    {
+      "vx": 0.0,
+      "wz": 0.0,
+      "count": 420
+    },
+    {
+      "vx": 0.04,
+      "wz": 0.0,
+      "count": 1669
+    }
+  ],
+  "safe_stop_transition_causes": {
+    "camera_STALE": 19,
+    "lidar_STALE": 4
+  },
+  "stale_pose_rows": 0,
+  "excluded_pose_row_times_s": [],
+  "min_clearance_bound_m": 0.05260857121771967,
+  "max_abs_roll_deg": 6.375630492300166e-12,
+  "max_abs_pitch_deg": 4.624791145324707,
+  "front_min_m": 2.5629079341888428,
+  "front_max_m": 5.004631996154785,
+  "lidar_status_counts": {
+    "CLEAR": 1936,
+    "STALE": 22
+  },
+  "imu_tilt_counts": {
+    "NORMAL": 1958
+  },
+  "video": {
+    "decoded_frames": 120,
+    "fps": 2.0,
+    "duration_s": 60.0
+  }
+}

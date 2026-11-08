@@ -1,0 +1,80 @@
+{"t": 5.798896285999945, "phase": "01_motion_disabled_freshness", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=3.9252398014068604 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 5.80594117200053, "phase": "01_motion_disabled_freshness", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 16.078813500999786, "phase": "02_approach_placement_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.7721155881881714 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 16.647530498999913, "phase": "02_approach_placement_disabled", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 20.37387990300067, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.7587207555770874 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 20.655344169000273, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 36.856829422000374, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.6039955615997314 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 37.36070042500069, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 39.84906408400002, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.5848114490509033 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 42.26150496700029, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 47.35799651100024, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.5391895771026611 (0.02s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 47.652105049000056, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 52.55678569000065, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> CAUTION"}
+{"t": 56.89226594400043, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.01s) | front=1.4796665906906128 (0.01s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 59.389164308000545, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 60.36408320300052, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.4719264507293701 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 60.9586652550006, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 70.8640941370004, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.4255924224853516 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 71.1479614939999, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 73.66322087500066, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.01s) | front=1.4216458797454834 (0.12s) | imu=NORMAL (0.06s) | camera=SEARCHING (1.75s)"}
+{"t": 75.15936732299997, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 92.35293650299991, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.04s) | front=1.3541496992111206 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 92.95062869699996, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 96.65508829900045, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.02s) | front=1.3419060707092285 (0.13s) | imu=NORMAL (0.06s) | camera=SEARCHING (2.04s)"}
+{"t": 96.95839196900033, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 99.55946257100004, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.03s) | front=1.335522174835205 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.21s)"}
+{"t": 99.79571698200016, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 104.50598591500057, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.02s) | front=1.3330707550048828 (0.08s) | imu=NORMAL (0.02s) | camera=SEARCHING (2.32s)"}
+{"t": 104.52623565300019, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 105.2701675369999, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.04s) | front=1.3304940462112427 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.51s)"}
+{"t": 105.78212343900032, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 106.84467651400064, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.02s) | front=1.3280450105667114 (0.04s) | imu=NORMAL (0.02s) | camera=STALE (0.02s)"}
+{"t": 108.36105308800052, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 109.4840228590001, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.02s) | front=1.3270295858383179 (0.12s) | imu=NORMAL (0.05s) | camera=SEARCHING (0.59s)"}
+{"t": 109.54921093600024, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 112.25387624199993, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.04s) | front=1.3175550699234009 (0.27s) | imu=NORMAL (0.02s) | camera=SEARCHING (1.44s)"}
+{"t": 115.47066817500036, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 118.27173222300007, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.06s) | front=1.3086376190185547 (0.04s) | imu=NORMAL (0.15s) | camera=STALE (0.16s)"}
+{"t": 118.28021546200034, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 127.35192433500015, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.2645801305770874 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 127.85259584300002, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 134.36594313100068, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.232775092124939 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 135.40206320800007, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 140.8727288780001, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.04s) | front=1.2163796424865723 (0.13s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 141.57321709200005, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 144.05496323199986, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.02s) | front=1.2084455490112305 (0.12s) | imu=NORMAL (0.07s) | camera=SEARCHING (0.58s)"}
+{"t": 144.18431156099996, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 149.35738349300027, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.03s) | front=1.1869776248931885 (0.02s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 149.45654540000032, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 153.38414548400033, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.03s) | front=1.170149564743042 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.07s)"}
+{"t": 154.34885622599995, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 156.374941993, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.04s) | front=1.1652289628982544 (0.04s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 160.79500327300048, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 160.83071342099993, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=STALE (0.03s) | front=1.1624116897583008 (0.13s) | imu=NORMAL (0.07s) | camera=SEARCHING (1.21s)"}
+{"t": 160.8485294359998, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 162.36396578600034, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.03s) | front=1.15370512008667 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.09s)"}
+{"t": 163.1493700000001, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 192.3926890900002, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.04s) | front=1.1621941328048706 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 194.45888518799984, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 206.85814719100017, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=WARNING (0.04s) | front=1.1972289085388184 (0.04s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 206.96672886800025, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 216.24928999700114, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> SAFE_STOP | lidar=CLEAR (0.03s) | front=1.2943845987319946 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 216.2527580320011, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> CAUTION"}
+{"t": 224.24982545500006, "phase": "03_fsm_only_wheel_drive", "event": "CAUTION -> EXPLORE"}
+{"t": 225.85922979500083, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.0283939838409424 (0.03s) | imu=NORMAL (0.08s) | camera=STALE (0.10s)"}
+{"t": 227.66851241600034, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 234.89299093799946, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.9822654724121094 (0.03s) | imu=NORMAL (0.06s) | camera=STALE (0.08s)"}
+{"t": 236.5604349890009, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 238.88474633900023, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.971970796585083 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 239.4537284959997, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 255.35108059700087, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.89908504486084 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.08s)"}
+{"t": 257.5900800970003, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 257.74983464600064, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=STALE (0.04s) | front=2.8978168964385986 (0.14s) | imu=NORMAL (0.08s) | camera=SEARCHING (1.68s)"}
+{"t": 257.8542121979999, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 258.3507550919994, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.04s) | front=2.896775484085083 (0.04s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 259.15112089299964, "phase": "03_fsm_only_wheel_drive", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 259.451123369, "phase": "03_fsm_only_wheel_drive", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=2.8958401679992676 (0.02s) | imu=WARNING (0.07s) | camera=SEARCHING (0.36s)"}
+{"t": 272.871000432001, "phase": "04_restore_flat_disabled", "event": "SAFE_STOP -> EXPLORE"}
+{"t": 277.86006807800095, "phase": "04_restore_flat_disabled", "event": "EXPLORE -> SAFE_STOP | lidar=CLEAR (0.03s) | front=3.9252398014068604 (0.03s) | imu=NORMAL (0.07s) | camera=STALE (0.09s)"}
+{"t": 278.5566439590011, "phase": "04_restore_flat_disabled", "event": "SAFE_STOP -> EXPLORE"}

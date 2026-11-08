@@ -1,0 +1,33 @@
+{
+  "width_m": 0.8,
+  "horizontal_length_m": 0.6,
+  "height_m": 0.02,
+  "segment_count": 24,
+  "max_surface_angle_deg": 5.910638915386445,
+  "toe_angle_deg": 0.7808741861987815,
+  "gap_m": 0.4,
+  "model_poses": {
+    "rough_ground_bump_01": "-2.700000000 -0.9 0 0 0 0",
+    "rough_ground_bump_02": "-1.700000000 -0.9 0 0 0 0",
+    "rough_ground_bump_03": "-0.700000000 -0.9 0 0 0 0",
+    "rough_ground_bump_04": "0.300000000 -0.9 0 0 0 0",
+    "rough_ground_bump_05": "1.300000000 -0.9 0 0 0 0"
+  },
+  "wheel_radius_m": 0.07,
+  "rear_support_radius_m": 0.025,
+  "body_box_size_m": [
+    0.5,
+    0.28,
+    0.13
+  ],
+  "body_box_center_in_base_m": [
+    0,
+    0,
+    0.155
+  ],
+  "flat_body_clearance_m": 0.09,
+  "body_clearance_lower_bound": "world_model_z + 0.155*Rzz - 0.25*abs(Rzx) - 0.14*abs(Rzy) - 0.065*abs(Rzz) - 0.020",
+  "meaning": "Actual rotated body box minimum world Z minus the global maximum bump height. Positive values prove body box is above every bump surface at sampled poses; not a full contact sensor.",
+  "slope_warning_threshold_changed": false,
+  "robot_control_source_changed": false
+}

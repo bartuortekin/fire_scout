@@ -1,0 +1,76 @@
+{
+  "bag_fully_deserialized": true,
+  "bag_messages": 148902,
+  "topic_counts": {
+    "/firescout/camera/hazard_detected": 302,
+    "/firescout/camera/status": 302,
+    "/firescout/bumper/status": 2738,
+    "/firescout/fsm/state": 2738,
+    "/cmd_vel": 2738,
+    "/firescout/lidar/left_m": 2680,
+    "/firescout/lidar/status": 2730,
+    "/firescout/lidar/front_m": 2679,
+    "/firescout/lidar/right_m": 2679,
+    "/firescout/imu/roll_deg": 2730,
+    "/firescout/imu/pitch_deg": 2730,
+    "/firescout/imu/tilt_status": 2730,
+    "/clock": 58821,
+    "/joint_states": 58806,
+    "/imu/data": 2949,
+    "/scan": 472,
+    "/firescout/fsm/event": 78
+  },
+  "command_values": [
+    {
+      "vx": 0.0,
+      "wz": 0.0,
+      "count": 664
+    },
+    {
+      "vx": 0.02,
+      "wz": 0.0,
+      "count": 1473
+    },
+    {
+      "vx": 0.04,
+      "wz": 0.0,
+      "count": 601
+    }
+  ],
+  "drive_safe_stop_transition_causes": {
+    "camera_STALE": 23,
+    "lidar_STALE": 10,
+    "camera_STALE+lidar_STALE": 2,
+    "imu_WARNING": 1
+  },
+  "clear_caution_moving_band_rows": 805,
+  "first_old_stop_band_moving_sample": {
+    "t": "52.629936991999784",
+    "phase": "03_fsm_only_wheel_drive",
+    "motion_enabled": "True",
+    "front_m": "1.498072862625122",
+    "left_m": "2.633458137512207",
+    "right_m": "1.0250624418258667",
+    "lidar": "CLEAR",
+    "roll_deg": "1.1226237902608668e-13",
+    "pitch_deg": "3.599415379085258e-07",
+    "tilt": "NORMAL",
+    "camera": "SEARCHING",
+    "hazard": "False",
+    "fsm": "CAUTION",
+    "vx": "0.02",
+    "wz": "0.0",
+    "camera_age": "0.1851823670003796",
+    "lidar_age": "0.019302611999592045",
+    "imu_age": "0.026080884000293736",
+    "front_age": "0.007909773999926983",
+    "stop_reason": "MOVING",
+    "joint_left": "4.045714285661221",
+    "joint_right": "4.045714285661222"
+  },
+  "video": {
+    "decoded_frames": 60,
+    "fps": 2.0,
+    "duration_s": 30.0
+  }
+}

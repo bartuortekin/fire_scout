@@ -1,0 +1,33 @@
+{
+  "motion_enabled": false,
+  "vx": 0.0,
+  "wz": 0.0,
+  "tilt": "NORMAL",
+  "pitch_deg": 4.832444346902776e-07,
+  "roll_deg": 2.79581127129655e-13,
+  "camera": "STALE",
+  "node_counts": {
+    "imu_monitor": 1,
+    "lidar_monitor": 1,
+    "camera_monitor": 1,
+    "firescout_fsm": 1
+  },
+  "cmd_vel_publishers": [
+    "firescout_fsm"
+  ],
+  "model_pose": "\nRequesting state for world [industrial_world]...\n\nModel: [52]\n  - Name: firescout_fs01\n  - Pose [ XYZ (m) ] [ RPY (rad) ]:\n    [-0.000000 -1.800000 -0.000000]\n    [0.000000 0.000000 -0.000000]\n",
+  "processes": [
+    "  19978   19951 /opt/ros/lyrical/opt/gz_sim_vendor/libexec/gz/sim10/gz-sim-main -v 4 -r -s --render-engine-server ogre2 /home/bartu/firescout_ws/install/firescout_fs01/share/firescout_fs01/worlds/industrial_world.sdf",
+    "  20076   19951 /opt/ros/lyrical/opt/gz_sim_vendor/libexec/gz/sim10/gz-sim-main -g --render-engine-gui ogre",
+    "  20082   20076 sh -c -- /opt/ros/lyrical/opt/gz_sim_vendor/libexec/gz/sim10/gz-sim-gui-client --render-engine-gui ogre",
+    "  20083   20082 /opt/ros/lyrical/opt/gz_sim_vendor/libexec/gz/sim10/gz-sim-gui-client --render-engine-gui ogre",
+    "  24303    5524 /usr/bin/python3 /opt/ros/lyrical/bin/ros2 run firescout_fs01 camera_monitor.py",
+    "  24304    5524 /usr/bin/python3 /opt/ros/lyrical/bin/ros2 run firescout_fs01 lidar_monitor.py",
+    "  24305    5524 /usr/bin/python3 /opt/ros/lyrical/bin/ros2 run firescout_fs01 imu_monitor.py",
+    "  24357   24305 python3 /home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/imu_monitor.py",
+    "  24360   24304 python3 /home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/lidar_monitor.py",
+    "  24363   24303 python3 /home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/camera_monitor.py",
+    "  34444    5524 /usr/bin/python3 /opt/ros/lyrical/bin/ros2 run firescout_fs01 firescout_fsm.py",
+    "  34453   34444 python3 /home/bartu/firescout_ws/install/firescout_fs01/lib/firescout_fs01/firescout_fsm.py"
+  ]
+}

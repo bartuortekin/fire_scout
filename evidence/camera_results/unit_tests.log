@@ -1,0 +1,12 @@
+test_blue_object_not_detected (test_camera_monitor.TestCameraMonitor.test_blue_object_not_detected) ... ok
+test_camera_stale (test_camera_monitor.TestCameraMonitor.test_camera_stale) ... ok
+test_camera_waiting (test_camera_monitor.TestCameraMonitor.test_camera_waiting) ... ok
+test_large_red_panel (test_camera_monitor.TestCameraMonitor.test_large_red_panel) ... ok
+test_no_red_object (test_camera_monitor.TestCameraMonitor.test_no_red_object) ... ok
+test_recent_camera_frame (test_camera_monitor.TestCameraMonitor.test_recent_camera_frame) ... ok
+test_small_red_object_not_detected (test_camera_monitor.TestCameraMonitor.test_small_red_object_not_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.053s
+
+OK

@@ -1,0 +1,3 @@
+firescout_fs01/scripts/firescout_fsm.py
+firescout_fs01/test/test_fsm_motion_policy.py
+firescout_fs01/test/test_fsm_lidar_boundaries.py
