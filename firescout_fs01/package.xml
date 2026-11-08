@@ -23,6 +23,10 @@
     <!-- Camera monitor dependencies -->
     <exec_depend>cv_bridge</exec_depend>
     <exec_depend>python3-opencv</exec_depend>
+    <!-- fsm/contact dependencies -->
+    <exec_depend>geometry_msgs</exec_depend>
+    <exec_depend>ros_gz_interfaces</exec_depend>
+
     <export>
         <build_type>ament_cmake</build_type>
     </export>

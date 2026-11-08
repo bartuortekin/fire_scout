@@ -8,6 +8,7 @@ install(PROGRAMS
   scripts/camera_monitor.py
   scripts/imu_monitor.py
   scripts/lidar_monitor.py
+  scripts/firescout_fsm.py
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
