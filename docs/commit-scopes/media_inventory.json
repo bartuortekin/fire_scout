@@ -1,0 +1,115 @@
+{
+  "units": "MB=1000000 bytes",
+  "media": [
+    {
+      "path": "evidence/fsm_clearance_fix_2026-11-08/live_approach/bag/0_bag_2026_11_08-16_43_24.mcap",
+      "bytes": 18784678,
+      "MB": 18.78,
+      "tracked": false,
+      "sha256": "17f34bb6205fdc529d8a5223f0e83268371b6d5065bed0a82de05c9441b8e740"
+    },
+    {
+      "path": "evidence/fsm_clearance_fix_2026-11-08/live_approach/caution_through_old_stop_band_30s.avi",
+      "bytes": 3490688,
+      "MB": 3.49,
+      "tracked": false,
+      "sha256": "eb452e4a47b4b17dea0f588ad26df6274d7b1b784cda6247763e1ebce5b51845"
+    },
+    {
+      "path": "evidence/imu_demo_ramp_fsm_2026-11-08_run01/bag/0_bag_2026_11_08-16_16_11.mcap",
+      "bytes": 11145197,
+      "MB": 11.15,
+      "tracked": false,
+      "sha256": "a3b81c51d21daf87b69cb238eacdf3d66c6a92c9311e5e5417d0d0c155f2adc0"
+    },
+    {
+      "path": "evidence/imu_demo_ramp_fsm_2026-11-08_run01/fsm_approach_30s.avi",
+      "bytes": 3924130,
+      "MB": 3.92,
+      "tracked": false,
+      "sha256": "d9c5923361a3bb05e5f086ab2b2b3a2707cfd3166218c6dcfd65ed64c1b6f0d9"
+    },
+    {
+      "path": "evidence/imu_physical_2026-11-07_run01/bag/0_bag_2026_11_07-15_54_49.mcap",
+      "bytes": 1814052,
+      "MB": 1.81,
+      "tracked": true,
+      "sha256": "5bff5ef79a45adc5445d408d788349dfa73dab8982b78a379ac176f45419e72a"
+    },
+    {
+      "path": "evidence/imu_physical_2026-11-07_submission.zip",
+      "bytes": 799007,
+      "MB": 0.8,
+      "tracked": false,
+      "sha256": "87a631eab29b9fd9ffce818e9f6a2d636000e4bce0d37ee166576a6e5d31e769"
+    },
+    {
+      "path": "evidence/rough_ground_2026-11-08/five/bag/0_bag_2026_11_08-17_15_44.mcap",
+      "bytes": 6778701,
+      "MB": 6.78,
+      "tracked": false,
+      "sha256": "eaa502cb1983bf2eaf072abc9a41afd198d952ba9f6c483281b81eba5aeb7331"
+    },
+    {
+      "path": "evidence/rough_ground_2026-11-08/five_retry/bag/0_bag_2026_11_08-17_21_57.mcap",
+      "bytes": 26347440,
+      "MB": 26.35,
+      "tracked": false,
+      "sha256": "dda8db4dacc240644697c3e9f90813caf6905a11800149d4e70b2620969b4f9c"
+    },
+    {
+      "path": "evidence/rough_ground_2026-11-08/five_retry/wheel_crossing_excerpt_60s.avi",
+      "bytes": 8277420,
+      "MB": 8.28,
+      "tracked": false,
+      "sha256": "7641817332037d429cc03e7b56788bfd2f253b0758ecfe7ea238312a919276c5"
+    },
+    {
+      "path": "evidence/rough_ground_2026-11-08/single/bag/0_bag_2026_11_08-17_10_54.mcap",
+      "bytes": 6136707,
+      "MB": 6.14,
+      "tracked": false,
+      "sha256": "30b2c3ec516bbf027fecf737946c6a346398d3d2d365042688e69310eca8601e"
+    },
+    {
+      "path": "evidence/rough_ground_2026-11-08/single/wheel_crossing_excerpt_60s.avi",
+      "bytes": 7770826,
+      "MB": 7.77,
+      "tracked": false,
+      "sha256": "ab29fc03089ff61171f95a1b420079eb0ba37c640df8a50d1e1b759ccb1b162d"
+    }
+  ],
+  "byte_identical_groups": [],
+  "archive_overlap_check": {
+    "archive": "evidence/imu_physical_2026-11-07_submission.zip",
+    "identical_existing_paths": [
+      "evidence/imu_physical_2026-11-07_run01/01_flat_NORMAL_model_pose.txt",
+      "evidence/imu_physical_2026-11-07_run01/02_ramp_WARNING_model_pose.txt",
+      "evidence/imu_physical_2026-11-07_run01/03_flat_NORMAL_model_pose.txt",
+      "evidence/imu_physical_2026-11-07_run01/angles_and_status.png",
+      "evidence/imu_physical_2026-11-07_run01/bag/0_bag_2026_11_07-15_54_49.mcap",
+      "evidence/imu_physical_2026-11-07_run01/bag/metadata.yaml",
+      "evidence/imu_physical_2026-11-07_run01/bag_record.log",
+      "evidence/imu_physical_2026-11-07_run01/bag_validation.txt",
+      "evidence/imu_physical_2026-11-07_run01/commands.jsonl",
+      "evidence/imu_physical_2026-11-07_run01/imu_monitor.log",
+      "evidence/imu_physical_2026-11-07_run01/initial_model_pose.txt",
+      "evidence/imu_physical_2026-11-07_run01/samples.jsonl",
+      "evidence/imu_physical_2026-11-07_run01/summary.json",
+      "tools/imu_physical_test.py",
+      "firescout_fs01/test/fixtures/imu_ramp_20deg.sdf",
+      "firescout_fs01/scripts/imu_monitor.py"
+    ],
+    "other_paths": [
+      "evidence/imu_physical_2026-11-07_run01/01_flat_NORMAL_screenshot_reply.txt",
+      "evidence/imu_physical_2026-11-07_run01/02_ramp_WARNING_screenshot_reply.txt",
+      "evidence/imu_physical_2026-11-07_run01/03_flat_NORMAL_screenshot_reply.txt",
+      "evidence/imu_physical_2026-11-07_run01/MANIFEST_SHA256.json",
+      "evidence/imu_physical_2026-11-07_run01/RESULTS.md",
+      "evidence/imu_physical_2026-11-07_run01/SOURCE_HASHES.json",
+      "evidence/imu_physical_2026-11-07_run01/imu_source.txt",
+      "docs/IMU_PHYSICAL_TEST.md",
+      "DEVELOPMENT_NOTES.md"
+    ]
+  }
+}

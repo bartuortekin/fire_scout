@@ -93,6 +93,22 @@ Uses standard Gazebo startup.
 
 The default mode is `vm`.
 
+Normal geliştirme workspace'i `~/firescout_ws`'dir. Launch Gazebo, RViz,
+bridge ve robot_state_publisher'ı başlatır; kamera/LiDAR/IMU monitor'larını ve
+FSM'yi otomatik başlatmaz. Açık oturumu ve `ros2 node list` çıktısını inceleyip
+yalnızca eksik node'ları ayrı Ubuntu terminallerinde çalıştır:
+
+```bash
+ros2 run firescout_fs01 camera_monitor.py
+ros2 run firescout_fs01 lidar_monitor.py
+ros2 run firescout_fs01 imu_monitor.py
+ros2 run firescout_fs01 firescout_fsm.py
+```
+
+Bu komutlar dört ayrı terminal içindir. FSM'nin hareket izni başlangıçta kapalıdır.
+FSM testinde tek `/cmd_vel` yayıncısı FSM olmalıdır; mevcut monitor veya Gazebo
+kopyası varken ikinci kopya açılmaz.
+
 ## 5. Sensor Verification
 
 List ROS topics:
@@ -130,6 +146,10 @@ The contact topic requires an actual collision to produce contact data.
 
 ## 6. Manual Robot Control
 
+Bu bölümdeki doğrudan hız komutları, FSM çalıştırılmayan ayrı manuel test içindir.
+FSM sürüş testinde hareket izni `ros2 param set /firescout_fsm motion_enabled true`
+ile açılır ve test sonunda `false` ile kapatılır; aynı anda ikinci hız yayıncısı kullanılmaz.
+
 Move forward:
 
 ```bash
@@ -163,13 +183,46 @@ VMware testing confirmed:
 
 LiDAR readings and publication rates depend on the scene and system performance.
 
+### 8 Kasım 2026: FSM, rampa ve tümsek kayıtları
+
+| Senaryo | Doğrulanan davranış | Sınırı |
+|---|---|---|
+| 1,498 m ön mesafe | CLEAR → CAUTION ve 0,02 m/s ile gerçek ilerleme | LiDAR eşikleri ve mevcut 0,80 m ileri hareket payı değiştirilmedi. |
+| 20° rampaya tekerlekli yaklaşma | Yaklaşık 1,158 m ilerleme; pitch −15,13° civarında WARNING → SAFE_STOP, hız 0 | Tam tırmanış/platoya ulaşma doğrulanmadı. |
+| Ayrı 20° yerleştirme | Gerçek IMU WARNING, FSM SAFE_STOP; düz zeminde NORMAL dönüşü | Doğrudan yerleştirme, fiziksel tırmanış değildir. |
+| Tek tümsek | 1,501 m ilerleme, en büyük mutlak pitch 4,62° | 2 cm yüksek / 60 cm uzun / 80 cm geniş profil. |
+| Beş tümsek | 5,501 m ilerleme, en büyük mutlak pitch 4,70°, beşi de tam geçildi | Kontrollü ara ve sensör tazelik duruşları içerir; kesintisiz sürüş değildir. |
+
+Tekerlekli aşamalarda gerçek Gazebo dünya pozu ve `/joint_states` kullanıldı;
+geçiş sırasında model pozu değiştirilmedi. Tek hız yayıncısı FSM idi.
+Tümseklerde gövde kutusu için örneklerden hesaplanan açıklık alt sınırı yaklaşık 5,26 cm;
+ön bumper temas mesajı yok. Tam gövde temas sensörü bulunmadığı için bu ayrım korunur.
+
+Kamera tazeliği sorunu çözülmedi. Beşli sürüş evresindeki SAFE_STOP geçişlerinde
+152 kez yalnız kamera STALE, 72 kez yalnız LiDAR STALE, 4 kez ikisi birlikte görüldü.
+Bu sayılar süre veya bağımsız hata sayısı değildir; kontrollü arayı da kapsayabilir.
+Kısa bir IMU UNKNOWN aralığında FSM zaten SAFE_STOP ve hız sıfırdı.
+Eğim WARNING kaynaklı bir duruş olarak sayılmadı.
+
+Beşli kayıtta yaklaşık t=250,82–325,91 s boyunca, test gözeticisi oturumu kesildiği
+için hareket bilinçli kapatıldı; aynı ölçümle sonra devam edildi. CSV'deki
+`motion_enabled` gözlemcinin kendi isteğini tutar ve bu dış kapatma sırasında true
+kalabilir. Bu bölümdeki sıfır hızın nedeni bilinçli aradır; eski FSM mesafe hatası değildir.
+
+101 birim testi, normal `~/firescout_ws` derlemesi ve `gz sdf -k` doğrulaması geçti.
+Kayıtların ayrıntıları, veri kaybı/örnek tazeliği sınırları ve küçük kanıt seçimi:
+[doğrulama notu](../docs/VALIDATION_RESULTS.md).
+Bu dokümantasyon hazırlığında canlı sürüş tekrarlanmadı.
+
 ## 8. Current Limitations
 
-- Autonomous exploration and decision-making are not yet implemented.
+- Sensor-based FSM exists; mapping and full autonomous exploration have not been validated.
 - No actual flame or temperature sensor is included.
-- The red risk panel is currently visual only.
+- The camera monitor uses a red-object demo; this is not a real flame detector.
 - Native Ubuntu launch mode has not yet been tested.
 - Physics and robot geometry may require further tuning.
+- Camera/LiDAR freshness interruptions remain; the five-bump run also included a controlled pause.
+- Full climbing of the 20-degree ramp has not been demonstrated; the existing tilt guard stops motion.
 
 ## 9. Project Files
 
