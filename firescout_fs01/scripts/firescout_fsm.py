@@ -182,7 +182,9 @@ class FireScoutFSM(Node):
 
         if self.lidar_status == 'DANGER':
             return 'AVOID'
-        if self.lidar_status == 'WARNING':
+        # Enter slow mode at the existing EXPLORE clearance margin too.
+        # LiDAR remains CLEAR down to 1.20 m; do not strand EXPLORE at 1.50 m.
+        if self.lidar_status == 'WARNING' or self.front_distance <= 1.50:
             return 'CAUTION'
         return 'EXPLORE'
 

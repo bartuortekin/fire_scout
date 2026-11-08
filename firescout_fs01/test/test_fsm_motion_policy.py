@@ -101,7 +101,13 @@ class StateDecisionTests(unittest.TestCase):
         self.assertEqual(decide_state(node, now), 'AVOID')
         node.state, node.lidar_status, node.front_distance, node.avoid_started = 'AVOID', 'CLEAR', 1.25, 99.0
         self.assertEqual(decide_state(node, now), 'AVOID')
+        node.front_distance = 1.35
+        self.assertEqual(decide_state(node, now), 'AVOID')
+        node.front_distance = 1.3501
+        self.assertEqual(decide_state(node, now), 'CAUTION')
         node.front_distance = 1.5
+        self.assertEqual(decide_state(node, now), 'CAUTION')
+        node.front_distance = 1.5001
         self.assertEqual(decide_state(node, now), 'EXPLORE')
 
     def test_camera_hazard_is_latched(self):
